@@ -1,0 +1,59 @@
+NODE EXPOCTOR 
+
+1. Ensure Python is Installed
+First, make sure Python is installed on your system. You can check this by running:
+bash
+Copy code
+python3 --version
+If Python is not installed, you can install it using:
+bash
+Copy code
+sudo apt update
+sudo apt install python3
+
+2. Create the Python Script
+Create a new Python script file on your system. For example, let's call it manage_node_exporter.py.
+•	Open a terminal and create the file:
+bash
+Copy code
+nano manage_node_exporter.py
+•	Copy the Python script (provided above) and paste it into the nano editor.
+•	Press Ctrl + X, then Y to save and exit the editor.
+
+3. Ensure Necessary Permissions
+Ensure the script is executable. Run the following command:
+bash
+Copy code
+chmod +x manage_node_exporter.py
+
+4. Run the Script
+Now, run the Python script with:
+bash
+Copy code
+python3 manage_node_exporter.py
+
+5. Follow the On-Screen Instructions
+Once the script starts, you'll see the following menu:
+plaintext
+Copy code
+Choose an option:
+1. Check Python Version
+2. Install Node Exporter
+3. Edit Node Exporter Configuration
+4. Remove Node Exporter
+5. Check Node Exporter Service Status
+6. Exit
+
+Enter the corresponding number for the action you want to perform.
+•	1: Check the Python version.
+•	2: Install Node Exporter.
+•	3: Edit Node Exporter configuration.---not working so don’t use it 
+•	4: Remove Node Exporter.
+•	5: Check the status of the Node Exporter service.
+•	6: Exit the script.
+
+6. Exit the Script
+When you're done, you can choose option 6 to exit the script.
+
+Thank me later ,run the script ….
+
